@@ -1,0 +1,17 @@
+﻿已經開始建置於 2015/10/28 下午 05:14:38。
+     1>節點 2 (Build 目標) 上的專案 "d:\documents\visual studio 2013\Projects\opencv\opencv\opencv.vcxproj"。
+     1>ClCompile:
+         F:\Visual Studio 2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>f:\opencv\opencv\build\include\opencv2\core\mat.hpp(1965): warning C4819: 檔案含有無法在目前字碼頁 (932) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>f:\opencv\opencv\build\include\opencv2\core\persistence.hpp : warning C4819: 檔案含有無法在目前字碼頁 (932) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>f:\opencv\opencv\build\include\opencv2\core\utility.hpp : warning C4819: 檔案含有無法在目前字碼頁 (932) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>d:\documents\visual studio 2013\projects\opencv\opencv\main.cpp(42): warning C4566: 由通用字元名稱 '\u2013' 表示的字元，無法在目前的字碼頁中表示 (932)
+       Link:
+         F:\Visual Studio 2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"d:\documents\visual studio 2013\Projects\opencv\Debug\opencv.exe" /INCREMENTAL /NOLOGO F:\OpenCV\opencv\build\x86\vc12\lib\opencv_ts300.lib F:\OpenCV\opencv\build\x86\vc12\lib\opencv_world300.lib F:\OpenCV\opencv\build\x64\vc12\lib\opencv_ts300.lib F:\OpenCV\opencv\build\x64\vc12\lib\opencv_world300.lib Kinect20.lib Kinect20.VisualGestureBuilder.lib Kinect20.Face.lib Kinect20.Fusion.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"d:\documents\visual studio 2013\Projects\opencv\Debug\opencv.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"d:\documents\visual studio 2013\Projects\opencv\Debug\opencv.lib" /MACHINE:X86 Debug\main.obj
+         opencv.vcxproj -> d:\documents\visual studio 2013\Projects\opencv\Debug\opencv.exe
+     1>專案 "d:\documents\visual studio 2013\Projects\opencv\opencv\opencv.vcxproj" (Build 目標) 建置完成。
+
+建置成功。
+
+經過時間 00:00:02.91
